@@ -1,0 +1,32 @@
+print("------------------------------")
+print("Welcome to fundamental booster")
+print("------------------------------")
+print("\nThis program collects your personal data/ info such as your name ,age ,height ,weight and favourite number.")
+print("It also demostrates python concepts like:")
+print("-input()and print()")
+print("- variables and data types")
+print("-ooperators ")
+print("- type() and id()")
+print("\n let's get started!\n")
+
+name=input("enter your name: ")
+age=int(input("enter your age: "))
+h= float(int(input("enter your height(cm): ")))
+w= float(int(input("enter your weight(kg): ")))
+fav_n= int(input("enter you favourite number: "))
+
+birth_y = 2026 - age
+print("Your birth year based on your age :",birth_y)
+
+print("\nHere are all variables typ and memory loaction")
+print(f"\nname:{name}, type:{type(name)}, memory location:{id(name)}")
+print(f"age:{age}, type:{type(age)}, memory location:{id(age)}")
+print(f"height:{h}, type:{type(h)}, memory location:{id(h)}")
+print(f"weight:{w}, type:{type(w)}, memory location:{id(w)}")
+print(f"fav number:{fav_n}, type:{type(fav_n)}, memory location:{id(fav_n)}\n")
+
+height_int=int(h)
+print("height is converted into int using int() function", type(height_int))
+print("\n...final summary of your info...")
+print(f" My name is {name}, at the age of {age} my height is {h}cm and weight is {w}kg, my favourite number is {fav_n}..")
+print("\nTHNAKS FOR USING THE PROGRAM!!!\n")
