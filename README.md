@@ -22,6 +22,7 @@ Calculates total sum of the range
 Validates range (end must be ≥ start)
 3. Exit Option
 Safely exits the program
+
 ▶️ How to Run
 
 Make sure you have Python installed (Python 3+ recommended).
@@ -29,6 +30,8 @@ Make sure you have Python installed (Python 3+ recommended).
 Run the script using:
 
 python your_file_name.py
+
+
 🧾 Menu Example
 ...welcome to logic box...
 
@@ -38,6 +41,7 @@ select an option:
 3. exit
 
 enter your choice:
+
 🔢 Example Outputs
 Pattern Generator
 
